@@ -1,0 +1,18 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar pastas
+node_modules/
+venv/
+dist/
+build/
+.wwebjs_auth/
+.wwebjs_cache/
+# Ignorar arquivos de configuração locais
+.env
+config.json

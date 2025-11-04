@@ -1,0 +1,17 @@
+{
+  "name": "pdf-whatsapp-sender",
+  "version": "1.0.0",
+  "description": "Aplicação para carimbar PDFs com dados de contatos e enviar via WhatsApp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "sqlite3": "^5.1.7",
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
